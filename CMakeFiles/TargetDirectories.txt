@@ -1,0 +1,4 @@
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/CMakeFiles/rebuild_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/CMakeFiles/edit_cache.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/CMakeFiles/main.dir
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/CMakeFiles/test.dir
