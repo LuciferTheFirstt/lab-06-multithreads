@@ -1,4 +1,4 @@
-# Install script for directory: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem
+# Install script for directory: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

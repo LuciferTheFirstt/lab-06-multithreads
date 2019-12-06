@@ -20,9 +20,12 @@ HunterGate(
 
 
 project(boost_filesystem)
+string(APPEND CMAKE_CXX_FLAGS " -lpthread")
 string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
 string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
 string(APPEND CMAKE_CXX_FLAGS " -Wshadow -Wnon-virtual-dtor")
+string(APPEND CMAKE_CXX_FLAGS " -DBOOST_ALL_DYN_LINK")
+add_definitions(-DBOOST_LOG_DYN_LINK) 
 
 hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
@@ -31,21 +34,18 @@ add_executable(main
   ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
 )
 
+target_compile_options(main INTERFACE -DBOOST_LOG_DYN_LINK)
 
 target_include_directories(main
   PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
+hunter_add_package(Boost COMPONENTS system log thread filesystem date_time chrono)
+find_package(Boost CONFIG REQUIRED system thread log filesystem date_time chrono)
 
+list(APPEND Boost_LIBRARIES boost_log_setup)
 
-hunter_add_package(Boost COMPONENTS system filesystem)
-find_package(Boost CONFIG REQUIRED system filesystem)
-
-hunter_add_package(Boost COMPONENTS system regex)
-find_package(Boost CONFIG REQUIRED system regex)
-
-target_link_libraries(main Boost::filesystem)
-target_link_libraries(main Boost::regex)
+target_link_libraries(main Boost::log Boost::filesystem Boost::date_time Boost::chrono)
 
 enable_testing()
 add_test(NAME unit_tests COMMAND tests) 

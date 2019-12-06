@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,36 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b95d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6b95d.dir/build.make CMakeFiles/cmTC_6b95d.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b95d.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_6b95d.dir/testCCompiler.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_6b95d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b95d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6b95d.dir/testCCompiler.c.o  -o cmTC_6b95d 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bcc5d/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bcc5d.dir/build.make CMakeFiles/cmTC_bcc5d.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcc5d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bcc5d.dir/testCCompiler.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_bcc5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcc5d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bcc5d.dir/testCCompiler.c.o  -o cmTC_bcc5d 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b7d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b7d7.dir/build.make CMakeFiles/cmTC_3b7d7.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3b7d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b7d7.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o  -o cmTC_3b7d7 
+Run Build Command:"/usr/bin/make" "cmTC_caeaf/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_caeaf.dir/build.make CMakeFiles/cmTC_caeaf.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_caeaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caeaf.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o  -o cmTC_caeaf 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +64,26 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3b7d7' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL8dgX4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3b7d7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3b7d7' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_caeaf' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZfAW9U.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_caeaf /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_caeaf' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3b7d7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3b7d7.dir/build.make CMakeFiles/cmTC_3b7d7.dir/build]
-  ignore line: [make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3b7d7]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b7d7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o  -o cmTC_3b7d7 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_caeaf/fast"]
+  ignore line: [make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_caeaf.dir/build.make CMakeFiles/cmTC_caeaf.dir/build]
+  ignore line: [make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_caeaf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caeaf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o  -o cmTC_caeaf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +95,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3b7d7' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL8dgX4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3b7d7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_caeaf' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZfAW9U.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_caeaf /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccL8dgX4.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZfAW9U.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -116,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3b7d7] ==> ignore
+    arg [cmTC_caeaf] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -128,7 +133,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_3b7d7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_caeaf.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,17 +163,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_259d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_259d2.dir/build.make CMakeFiles/cmTC_259d2.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_259d2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_259d2.dir/feature_tests.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
-Linking C executable cmTC_259d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_259d2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_259d2.dir/feature_tests.c.o  -o cmTC_259d2 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cc5b3/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cc5b3.dir/build.make CMakeFiles/cmTC_cc5b3.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc5b3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_cc5b3.dir/feature_tests.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cc5b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc5b3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc5b3.dir/feature_tests.c.o  -o cmTC_cc5b3 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,17 +185,19 @@ make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/wo
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ee32f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ee32f.dir/build.make CMakeFiles/cmTC_ee32f.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ee32f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ee32f.dir/feature_tests.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ee32f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee32f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ee32f.dir/feature_tests.c.o  -o cmTC_ee32f 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cbd35/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cbd35.dir/build.make CMakeFiles/cmTC_cbd35.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbd35.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_cbd35.dir/feature_tests.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cbd35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbd35.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cbd35.dir/feature_tests.c.o  -o cmTC_cbd35 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,17 +207,19 @@ make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/wo
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_36f89/fast"
-/usr/bin/make -f CMakeFiles/cmTC_36f89.dir/build.make CMakeFiles/cmTC_36f89.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_36f89.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_36f89.dir/feature_tests.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
-Linking C executable cmTC_36f89
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36f89.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_36f89.dir/feature_tests.c.o  -o cmTC_36f89 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_70edb/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_70edb.dir/build.make CMakeFiles/cmTC_70edb.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70edb.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_70edb.dir/feature_tests.c.o   -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.c
+Linking C executable cmTC_70edb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70edb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_70edb.dir/feature_tests.c.o  -o cmTC_70edb 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -216,30 +227,33 @@ make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/wo
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e082a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e082a.dir/build.make CMakeFiles/cmTC_e082a.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e082a.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_e082a.dir/testCXXCompiler.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_e082a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e082a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e082a.dir/testCXXCompiler.cxx.o  -o cmTC_e082a 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f0a0d/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f0a0d.dir/build.make CMakeFiles/cmTC_f0a0d.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0a0d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f0a0d.dir/testCXXCompiler.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f0a0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0a0d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f0a0d.dir/testCXXCompiler.cxx.o  -o cmTC_f0a0d 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ab34/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ab34.dir/build.make CMakeFiles/cmTC_8ab34.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8ab34
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ab34.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8ab34 
+Run Build Command:"/usr/bin/make" "cmTC_32adc/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_32adc.dir/build.make CMakeFiles/cmTC_32adc.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_32adc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32adc.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_32adc 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -251,24 +265,26 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ab34' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccms4Dxd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ab34 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ab34' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_32adc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIuJCYu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_32adc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_32adc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8ab34/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8ab34.dir/build.make CMakeFiles/cmTC_8ab34.dir/build]
-  ignore line: [make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8ab34]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ab34.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8ab34 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_32adc/fast"]
+  ignore line: [make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_32adc.dir/build.make CMakeFiles/cmTC_32adc.dir/build]
+  ignore line: [make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_32adc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32adc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_32adc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -280,13 +296,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ab34' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccms4Dxd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8ab34 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_32adc' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIuJCYu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_32adc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccms4Dxd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIuJCYu.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -306,7 +322,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8ab34] ==> ignore
+    arg [cmTC_32adc] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -318,7 +334,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_8ab34.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_32adc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,17 +360,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a319f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a319f.dir/build.make CMakeFiles/cmTC_a319f.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a319f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_a319f.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a319f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a319f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a319f.dir/feature_tests.cxx.o  -o cmTC_a319f 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e4514/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e4514.dir/build.make CMakeFiles/cmTC_e4514.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4514.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_e4514.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e4514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4514.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e4514.dir/feature_tests.cxx.o  -o cmTC_e4514 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -417,17 +435,19 @@ make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/wo
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_82e29/fast"
-/usr/bin/make -f CMakeFiles/cmTC_82e29.dir/build.make CMakeFiles/cmTC_82e29.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_82e29.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_82e29.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_82e29
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e29.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_82e29.dir/feature_tests.cxx.o  -o cmTC_82e29 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4d8fd/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4d8fd.dir/build.make CMakeFiles/cmTC_4d8fd.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d8fd.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4d8fd.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4d8fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d8fd.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4d8fd.dir/feature_tests.cxx.o  -o cmTC_4d8fd 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -490,17 +510,19 @@ make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/wo
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_998ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_998ff.dir/build.make CMakeFiles/cmTC_998ff.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_998ff.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_998ff.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_998ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_998ff.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_998ff.dir/feature_tests.cxx.o  -o cmTC_998ff 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a4a35/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a4a35.dir/build.make CMakeFiles/cmTC_a4a35.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a4a35.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_a4a35.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a4a35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4a35.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a4a35.dir/feature_tests.cxx.o  -o cmTC_a4a35 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -563,17 +585,19 @@ make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/wo
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
+Change Dir: /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_85518/fast"
-/usr/bin/make -f CMakeFiles/cmTC_85518.dir/build.make CMakeFiles/cmTC_85518.dir/build
-make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_85518.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_85518.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_85518
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85518.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_85518.dir/feature_tests.cxx.o  -o cmTC_85518 
-make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab04/lab-04-boost-filesystem/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f5a05/fast"
+make[1]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f5a05.dir/build.make CMakeFiles/cmTC_f5a05.dir/build
+make[2]: Entering directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5a05.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f5a05.dir/feature_tests.cxx.o -c /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f5a05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5a05.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f5a05.dir/feature_tests.cxx.o  -o cmTC_f5a05 
+make[2]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
