@@ -90,10 +90,13 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/build.make
+main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_log_setup-mt-d-x64.a
+main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_chrono-mt-d-x64.a
+main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_date_time-mt-d-x64.a
+main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_thread-mt-d-x64.a
 main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_log-mt-d-x64.a
 main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_filesystem-mt-d-x64.a
-main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_date_time-mt-d-x64.a
-main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_chrono-mt-d-x64.a
+main: /home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_system-mt-d-x64.a
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

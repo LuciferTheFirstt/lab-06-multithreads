@@ -20403,6 +20403,8 @@ boost/winapi/basic_types.hpp
 -
 
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/main.cpp
+header.hpp
+-
 boost/log/trivial.hpp
 -
 boost/log/utility/setup/file.hpp
@@ -20417,4 +20419,6 @@ string
 -
 thread
 -
+
+include/header.hpp
 

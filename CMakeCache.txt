@@ -53,6 +53,12 @@ Boost_LOG_LIBRARY_DEBUG:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/51
 //Boost log library (release)
 Boost_LOG_LIBRARY_RELEASE:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_log-mt-x64.a
 
+//Boost log_setup library (debug)
+Boost_LOG_SETUP_LIBRARY_DEBUG:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_log_setup-mt-d-x64.a
+
+//Boost log_setup library (release)
+Boost_LOG_SETUP_LIBRARY_RELEASE:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_log_setup-mt-x64.a
+
 //Boost system library (debug)
 Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_system-mt-d-x64.a
 
@@ -181,7 +187,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=boost_filesystem
+CMAKE_PROJECT_NAME:STATIC=SHA
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -254,6 +260,12 @@ HUNTER_STATUS_PRINT:BOOL=ON
 HUNTER_TLS_VERIFY:BOOL=ON
 
 //Value Computed by CMake
+SHA_BINARY_DIR:STATIC=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06
+
+//Value Computed by CMake
+SHA_SOURCE_DIR:STATIC=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06
+
+//Value Computed by CMake
 boost_filesystem_BINARY_DIR:STATIC=/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06
 
 //Value Computed by CMake
@@ -272,6 +284,8 @@ Boost_CHRONO_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Boost_DATE_TIME_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_RELEASE
 Boost_DATE_TIME_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
@@ -286,6 +300,10 @@ Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
 Boost_LOG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_LOG_LIBRARY_RELEASE
 Boost_LOG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LOG_SETUP_LIBRARY_DEBUG
+Boost_LOG_SETUP_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LOG_SETUP_LIBRARY_RELEASE
+Boost_LOG_SETUP_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
 Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
@@ -452,7 +470,7 @@ HUNTER_VERSION:INTERNAL=0.23.218
 //Last used BOOST_ROOT value.
 _BOOST_ROOT_LAST:INTERNAL=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=chrono;date_time;filesystem;log;system;thread
+_Boost_COMPONENTS_SEARCHED:INTERNAL=chrono;date_time;filesystem;log;log_setup;system;thread
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.

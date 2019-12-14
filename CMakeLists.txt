@@ -18,44 +18,34 @@ HunterGate(
   SHA1 "9a3594a61227967fb92159339ba326701b287b19"
 )
 
+project(SHA)
 
-project(boost_filesystem)
-string(APPEND CMAKE_CXX_FLAGS " -lpthread")
-string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
-string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
-string(APPEND CMAKE_CXX_FLAGS " -Wshadow -Wnon-virtual-dtor")
-string(APPEND CMAKE_CXX_FLAGS " -DBOOST_ALL_DYN_LINK")
-add_definitions(-DBOOST_LOG_DYN_LINK) 
+hunter_add_package(Boost COMPONENTS chrono date_time thread log filesystem system)
+find_package (Threads)
+find_package (Boost COMPONENTS log_setup)
+find_package(Boost CONFIG REQUIRED log_setup chrono date_time thread log filesystem system)
 
-hunter_add_package(GTest)
-find_package(GTest CONFIG REQUIRED)
+
+add_library(header INTERFACE)
+add_library(Log INTERFACE)
+add_library(picosha2 INTERFACE)
 
 add_executable(main
   ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
 )
 
-target_compile_options(main INTERFACE -DBOOST_LOG_DYN_LINK)
+target_include_directories(header
+  INTERFACE $<BUILD_INTERFACE:${${PROJECT_NAME}_SOURCE_DIR}/include>
+            $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
+target_include_directories(Log
+  INTERFACE $<BUILD_INTERFACE:${${PROJECT_NAME}_SOURCE_DIR}/include>
+            $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
+target_include_directories(picosha2
+  INTERFACE $<BUILD_INTERFACE:${${PROJECT_NAME}_SOURCE_DIR}/include>
+            $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
 
-target_include_directories(main
-  PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
-)
 
-hunter_add_package(Boost COMPONENTS system log thread filesystem date_time chrono)
-find_package(Boost CONFIG REQUIRED system thread log filesystem date_time chrono)
+target_link_libraries(Log INTERFACE Boost::log_setup Boost::chrono Boost::date_time Boost::thread Boost::log Boost::filesystem Boost::system)
+target_link_libraries(header INTERFACE picosha2 Log ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries(main header)
 
-list(APPEND Boost_LIBRARIES boost_log_setup)
-
-target_link_libraries(main Boost::log Boost::filesystem Boost::date_time Boost::chrono)
-
-enable_testing()
-add_test(NAME unit_tests COMMAND tests) 
-
-if(BUILD_COVERAGE)
-  set(ENABLE_COVERAGE ON CACHE BOOL "Enable coverage build." FORCE)
-  list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-  find_package(codecov)
-  add_coverage(boost_filesystem)
-  add_coverage(tests)
-  list(APPEND LCOV_REMOVE_PATTERNS "'${PROJECT_SOURCE_DIR}/tests/*'")
-  coverage_evaluate()
-endif()
