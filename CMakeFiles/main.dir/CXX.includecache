@@ -20403,7 +20403,7 @@ boost/winapi/basic_types.hpp
 -
 
 /home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/main.cpp
-header.hpp
+picosha2.h
 -
 boost/log/trivial.hpp
 -
@@ -20420,5 +20420,17 @@ string
 thread
 -
 
-include/header.hpp
+include/picosha2.h
+algorithm
+-
+cassert
+-
+iterator
+-
+sstream
+-
+vector
+-
+fstream
+-
 
