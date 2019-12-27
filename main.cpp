@@ -25,7 +25,7 @@ void Logging() {
 
 	auto sinkFile = logging::add_file_log(
 		boost::log::keywords::file_name = "logs/log_%N.log",
-		boost::log::keywords::rotation_size = 128 * 1024 * 1024,
+		boost::log::keywords::rotation_size = 10 * 1024 * 1024,
 		boost::log::keywords::format = format
 	);
 
