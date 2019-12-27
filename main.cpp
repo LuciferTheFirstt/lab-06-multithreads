@@ -28,9 +28,6 @@ void Logging() {
 		boost::log::keywords::rotation_size = 128 * 1024 * 1024,
 		boost::log::keywords::format = format
 	);
-	sinkFile->set_filter(
-		logging::trivial::severity >= logging::trivial::trace
-	);
 
 	auto sinkConsole = boost::log::add_console_log(
 		std::cout,
