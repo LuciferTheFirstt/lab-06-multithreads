@@ -1,51 +1,48 @@
-#include <boost/algorithm/string/predicate.hpp>
-#include <boost/log/utility/setup/common_attributes.hpp>
-#include <boost/log/utility/setup/console.hpp>
-#include <picosha2.h>
-#include <boost/log/trivial.hpp>
-#include <boost/log/utility/setup/file.hpp>
 #include <algorithm>
 #include <iostream>
 #include <vector>
 #include <string>
-#include <boost/log/sinks.hpp>
 #include <thread>
-#include <boost/thread.hpp>
-#include <boost/regex.hpp>
-#include <boost/lexical_cast.hpp>
 
-namespace logging = boost::log;
+#include <picosha2.h>
+#include <boost/algorithm/string/predicate.hpp>
+#include <boost/lexical_cast.hpp>
+#include <boost/log/trivial.hpp>
+#include <boost/log/utility/setup/common_attributes.hpp>
+#include <boost/log/utility/setup/console.hpp>
+#include <boost/log/utility/setup/file.hpp>
+#include <boost/regex.hpp>
+#include <boost/thread.hpp>
+
+using namespace boost::log;
 using namespace boost;
 using namespace std;
-using boost::lexical_cast;
-using boost::bad_lexical_cast;
 
-#define M 4
 #define L 100
 
 void Logging() {
 
-	logging::register_simple_formatter_factory<
-		logging::trivial::severity_level,
+	register_simple_formatter_factory<
+		trivial::severity_level,
 		char
 	>("Severity");
 	static const string format = "[%TimeStamp%][%Severity%][%ThreadID%]: %Message%";
 
-	auto sinkFile = logging::add_file_log(
-		logging::keywords::file_name = "logs/log_%N.log",
-		logging::keywords::rotation_size = 10 * 1024 * 1024,
-		logging::keywords::format = format
+	auto sinkFile = add_file_log(
+		keywords::file_name = "logs/log_%N.log",
+		keywords::rotation_size = 10 * 1024 * 1024,
+		keywords::format = format
 	);
 
-	auto sinkConsole = logging::add_console_log(
+	auto sinkConsole = add_console_log(
 		cout,
-		logging::keywords::format = format
+		keywords::format = format
 	);
 	sinkConsole->set_filter(
-		logging::trivial::severity >= logging::trivial::info
+		trivial::severity >= trivial::info
 	);
 
-	logging::add_common_attributes();
+	add_common_attributes();
 
 }
 
