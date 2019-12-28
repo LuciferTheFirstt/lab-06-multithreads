@@ -26580,7 +26580,7 @@ boost/winapi/basic_types.hpp
 boost/winapi/basic_types.hpp
 -
 
-/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/main.cpp
+/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/sources/main.cpp
 boost/algorithm/string/predicate.hpp
 -
 boost/log/utility/setup/common_attributes.hpp
@@ -26608,6 +26608,8 @@ thread
 boost/thread.hpp
 -
 boost/regex.hpp
+-
+boost/lexical_cast.hpp
 -
 
 include/picosha2.h

@@ -12,10 +12,13 @@
 #include <thread>
 #include <boost/thread.hpp>
 #include <boost/regex.hpp>
+#include <boost/lexical_cast.hpp>
 
 namespace logging = boost::log;
 using namespace boost;
 using namespace std;
+using boost::lexical_cast;
+using boost::bad_lexical_cast;
 
 #define M 4
 #define L 100
@@ -65,34 +68,31 @@ void func(int thread_num) {
 
 int main(int argc, char** argv)
 {
-	unsigned num_cpu;
+	unsigned int thread_count;
 
-	thread_group g;
+	thread_group pool;
 
 	Logging();
 
 	if (argc < 2)
 	{
-		cout << num_cpu << endl;
+		thread_count = boost::thread::hardware_concurrency();
 	}
-	else
-	{
-		const regex prov("[0-9]"); 
-		if (regex_match(argv[1], prov)) {
-			num_cpu = lexical_cast<int>(argv[1]);
+	else {
+		try {
+			thread_count = lexical_cast<unsigned int>(argv[1]);
 		}
-		else {
-			cout << " Please enter the correct number of threads " << endl;
-			exit(0);
+		catch (const bad_lexical_cast&) {
+			std::cerr << " Please enter the correct number of threads " << std::endl;
+			return -1;
 		}
 	}
 
-	for (int i = 0; i < num_cpu; ++i)
-		g.create_thread(bind(func, i));
-	g.join_all();
+	for (int i = 0; i < thread_count; ++i)
+		pool.create_thread(bind(func, i));
+	pool.join_all();
 
 	return 0;
 }
-
 
 
