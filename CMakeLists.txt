@@ -20,10 +20,10 @@ HunterGate(
 
 project(SHA)
 
-hunter_add_package(Boost COMPONENTS chrono date_time thread log filesystem system)
+hunter_add_package(Boost COMPONENTS chrono regex date_time thread log filesystem system)
 find_package (Threads)
 find_package (Boost COMPONENTS log_setup)
-find_package(Boost CONFIG REQUIRED log_setup chrono date_time thread log filesystem system)
+find_package(Boost CONFIG REQUIRED log_setup regex chrono date_time thread log filesystem system)
 
 
 add_library(header INTERFACE)
@@ -31,7 +31,7 @@ add_library(Log INTERFACE)
 add_library(picosha2 INTERFACE)
 
 add_executable(main
-  ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
 )
 
 target_include_directories(header
@@ -45,7 +45,7 @@ target_include_directories(picosha2
             $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
 
 
-target_link_libraries(Log INTERFACE Boost::log_setup Boost::chrono Boost::date_time Boost::thread Boost::log Boost::filesystem Boost::system)
+target_link_libraries(Log INTERFACE Boost::log_setup Boost::regex Boost::chrono Boost::date_time Boost::thread Boost::log Boost::filesystem Boost::system)
 target_link_libraries(header INTERFACE picosha2 Log ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(main header)
 

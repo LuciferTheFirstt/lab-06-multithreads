@@ -59,6 +59,12 @@ Boost_LOG_SETUP_LIBRARY_DEBUG:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a35
 //Boost log_setup library (release)
 Boost_LOG_SETUP_LIBRARY_RELEASE:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_log_setup-mt-x64.a
 
+//Boost regex library (debug)
+Boost_REGEX_LIBRARY_DEBUG:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_regex-mt-d-x64.a
+
+//Boost regex library (release)
+Boost_REGEX_LIBRARY_RELEASE:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_regex-mt-x64.a
+
 //Boost system library (debug)
 Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_system-mt-d-x64.a
 
@@ -304,6 +310,10 @@ Boost_LOG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Boost_LOG_SETUP_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_LOG_SETUP_LIBRARY_RELEASE
 Boost_LOG_SETUP_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_DEBUG
+Boost_REGEX_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_RELEASE
+Boost_REGEX_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
 Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
@@ -470,7 +480,7 @@ HUNTER_VERSION:INTERNAL=0.23.218
 //Last used BOOST_ROOT value.
 _BOOST_ROOT_LAST:INTERNAL=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=chrono;date_time;filesystem;log;log_setup;system;thread
+_Boost_COMPONENTS_SEARCHED:INTERNAL=chrono;date_time;filesystem;log;log_setup;regex;system;thread
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=/home/luciferthefirstt/.hunter/_Base/9a3594a/511a137/48401e9/Install/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.

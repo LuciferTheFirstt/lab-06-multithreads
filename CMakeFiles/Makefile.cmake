@@ -96,6 +96,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/luciferthefirstt/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/filesystem/hunter.cmake"
   "/home/luciferthefirstt/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/hunter.cmake"
   "/home/luciferthefirstt/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/log/hunter.cmake"
+  "/home/luciferthefirstt/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/regex/hunter.cmake"
   "/home/luciferthefirstt/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/system/hunter.cmake"
   "/home/luciferthefirstt/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/thread/hunter.cmake"
   "/home/luciferthefirstt/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/scripts/create-toolchain-info.cmake"
