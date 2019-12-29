@@ -1,3 +1,0 @@
-/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/CMakeFiles/rebuild_cache.dir
-/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/CMakeFiles/edit_cache.dir
-/home/luciferthefirstt/LuciferTheFirstt/workspace/workspace/projects/AL/lab06/lab06/CMakeFiles/main.dir
